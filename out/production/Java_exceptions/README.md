@@ -1,5 +1,7 @@
 # Исключения в программировании и их обработка (лекции)
 
+![Exceptions in Java](https://i.postimg.cc/sgC4X0mg/java-exceptions.png "Exceptions in Java")
+
 ## Урок 1. Обработка ошибок в программировании
 
 ### Описание
