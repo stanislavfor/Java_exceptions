@@ -1,7 +1,7 @@
 package lesson_3.homework;
 
 
-public class NoteBook extends Main {
+public class NoteBook {
 
     public void NoteBookBox(String[] values){
 

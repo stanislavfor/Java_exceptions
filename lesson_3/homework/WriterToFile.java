@@ -4,7 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 
-public class WriterToFile extends NoteBook {
+public class WriterToFile {
+
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_RESET = "\u001B[0m";
 
     public void InputWriter(String[] values, boolean indexValue, boolean indexLength){
         StringToValue StringToValue = new StringToValue();
@@ -29,7 +32,7 @@ public class WriterToFile extends NoteBook {
 
                 writer.write(data); // <- запись строки data в файл surname_note.txt
                 writer.close();
-                System.out.println("значение успешно записано в файл");
+                System.out.println(ANSI_CYAN + "значение успешно записано в файл" + ANSI_RESET);
             } catch (IOException e) {
                 System.out.println("ошибка при записи в файл");
             }

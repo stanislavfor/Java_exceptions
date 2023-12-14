@@ -6,22 +6,6 @@ import java.time.format.DateTimeParseException;
 
 public class StringToValue {
 
-//    private char gender;
-
-//    static String getGender;
-//    static String getPhoneNumber;
-//    static String getSurname;
-//    static String getName;
-//    static String getPatronymic;
-//    static String getDateOfBirth;
-//
-//    public String getSurname() { return surname; }
-//    public String getName() { return name; }
-//    public String getPatronymic() { return patronymic; }
-//    public String getDateOfBirth() { return dateOfBirth; }
-//    public String getPhoneNumber() { return phoneNumber; }
-//    public String getGender() { return gender; }
-
     public static boolean calculateIndexValue() {
         return true;
     }
@@ -54,8 +38,6 @@ public class StringToValue {
         } catch (DateTimeParseException e) {
             throw new IllegalArgumentException("\"некорректный формат даты рождения\"");
         }
-//        System.out.println("RRR" + surname);
-//        System.out.println("TTT" + values[0]);
 
     }
 

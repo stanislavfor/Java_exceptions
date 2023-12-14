@@ -1,6 +1,6 @@
 package lesson_3.homework;
 
-public class LengthForValue extends NoteBook {
+public class LengthForValue {
 
     public static boolean calculateIndexLength() {
         return true;
